@@ -1,8 +1,10 @@
 # Banking System API
 
-A Spring Boot REST API for managing banking operations like account creation, deposit, and withdrawal with proper exception handling and clean architecture.
+## 📌 Project Overview
 
----
+Designed and developed a Banking REST API using Spring Boot with a layered architecture (Controller, Service, Repository).
+
+Implemented core banking features like account creation, deposit, withdrawal, and deletion. Applied DTO pattern for clean data transfer and global exception handling for robust error management.
 
 ## 🚀 Features
 
@@ -13,8 +15,6 @@ A Spring Boot REST API for managing banking operations like account creation, de
 - Delete Account
 - Global Exception Handling
 
----
-
 ## 🛠 Tech Stack
 
 - Java
@@ -22,8 +22,6 @@ A Spring Boot REST API for managing banking operations like account creation, de
 - Spring Data JPA
 - MySQL
 - Maven
-
----
 
 ## 📂 Project Structure
 
@@ -33,8 +31,6 @@ A Spring Boot REST API for managing banking operations like account creation, de
 - DTO → Data transfer objects
 - Mapper → Entity ↔ DTO conversion
 - Exception → Custom exception handling
-
----
 
 ## ⚙️ Configuration
 
@@ -46,15 +42,11 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
 
----
-
 ## ▶️ Run the Project
 
 1. Clone repository  
 2. Configure database  
 3. Run `BankingServiceApplication.java`  
-
----
 
 ## 📌 API Endpoints
 
@@ -66,8 +58,6 @@ spring.datasource.password=your_password
 | PUT | /api/accounts/{id}/deposit | Deposit |
 | PUT | /api/accounts/{id}/withdraw | Withdraw |
 | DELETE | /api/accounts/{id} | Delete |
-
----
 
 ## 📄 License
 
