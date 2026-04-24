@@ -1,7 +1,10 @@
 # Banking System API
 
-A Spring Boot REST API for managing banking operations like account creation, deposit, and withdrawal with proper exception handling and clean architecture.
+## 📌 Project Overview
 
+Designed and developed a Banking REST API using Spring Boot with a layered architecture (Controller, Service, Repository).
+
+Implemented core banking features like account creation, deposit, withdrawal, and deletion. Applied DTO pattern for clean data transfer and global exception handling for robust error management.
 ---
 
 ## 🚀 Features
@@ -72,3 +75,49 @@ spring.datasource.password=your_password
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+## 📸 API Screenshots
+
+### 🟢 Create Account
+![Create Account 1](screenshots/create-account-1.png)
+![Create Account 2](screenshots/create-account-2.png)
+![Create Account 3](screenshots/create-account-3.png)
+![Database After Account Creation(screenshots/db-after-create-account.png)
+
+---
+
+### 🟢 Get Account
+![Get Account 1](screenshots/get-account-1.png)
+![Get Account 2](screenshots/get-account-2.png)
+![Get Account 3](screenshots/get-account-3.png)
+![Get All Accounts](screenshots/get-all-accounts.png)
+
+---
+
+### 🟢 Deposit
+![Deposit 1](screenshots/deposit-1.png)
+![Deposit 2](screenshots/deposit-2.png)
+![Deposit 3](screenshots/deposit-3.png)
+![Database After Deposit](screenshots/db-after-deposit.png)
+
+---
+
+### 🟢 Withdraw
+![Withdraw 1](screenshots/withdraw-1.png)
+![Withdraw 2](screenshots/withdraw-2.png)
+![Withdraw 3](screenshots/withdraw-3.png)
+![Database After Withdraw](screenshots/db-after-withdraw.png)
+
+---
+
+### 🟢 Delete Account
+![Delete Account](screenshots/delete-account.png)
+![Database After Delete](screenshots/db-after-delete.png)
+
+---
+
+### 🔴 Exception Handling
+![Insufficient Balance](screenshots/insufficient-balance.png)
+![Account Exception](screenshots/account-exception.png)
+
+---
