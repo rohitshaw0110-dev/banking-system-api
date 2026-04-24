@@ -5,6 +5,7 @@
 Designed and developed a Banking REST API using Spring Boot with a layered architecture (Controller, Service, Repository).
 
 Implemented core banking features like account creation, deposit, withdrawal, and deletion. Applied DTO pattern for clean data transfer and global exception handling for robust error management.
+
 ---
 
 ## 🚀 Features
@@ -55,9 +56,9 @@ spring.datasource.password=your_password
 
 1. Clone repository  
 2. Configure database  
-3. Run `BankingServiceApplication.java`  
+3. Run `BankingServiceApplication.java` 
 
----
+--- 
 
 ## 📌 API Endpoints
 
@@ -75,6 +76,8 @@ spring.datasource.password=your_password
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+---
 
 ## 📸 API Screenshots
 
