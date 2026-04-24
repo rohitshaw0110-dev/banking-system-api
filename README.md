@@ -85,7 +85,7 @@ This project is licensed under the MIT License.
 ![Create Account 1](screenshots/create-account-1.png)
 ![Create Account 2](screenshots/create-account-2.png)
 ![Create Account 3](screenshots/create-account-3.png)
-![Database After Account Creation(screenshots/db-after-create-account.png)
+![Database After Account Creation](screenshots/db-after-create-account.png)
 
 ---
 
